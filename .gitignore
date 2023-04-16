@@ -40,6 +40,9 @@ target/
 *.iml
 *.ipr
 
+### Gradle ###
+.gradle/
+
 ### NetBeans ###
 nbproject/private/
 build/
