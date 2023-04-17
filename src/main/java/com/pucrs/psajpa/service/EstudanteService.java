@@ -20,4 +20,8 @@ public class EstudanteService {
     public Iterable<Estudante> listarTodosEstudantes() {
         return estudanteRepositorio.findAll();
     }
+
+    public Estudante encontraAlunoMatricula(int matricula) {
+        return estudanteRepositorio.findByMatricula(matricula);
+    }
 }
